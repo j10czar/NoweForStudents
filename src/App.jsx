@@ -1,11 +1,10 @@
-import Navbar from "./components/navbar/Navbar.jsx";
+import Home from "./pages/home/Home";
 
+//please use headless UI
 function App() {
   return (
     <>
-      <Navbar/>
-      
-
+      <Home/>
     </>
     
     
