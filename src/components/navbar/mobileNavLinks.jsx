@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import { MenuToggle } from "./MenuToggle";
 import './mobilenavlinks.css'
-import { CSSTransition } from 'react-transition-group';
+
+import { motion, AnimatePresence} from "framer-motion"
 
 
-export function MobileNavLinks(props) {
-  const [isOpen, setOpen] = useState(false);
+
+
+export function MobileNavLinks({className}) {
+  
 
   return (
-    <div className="mnavbar-container">
-        <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
 
-        {isOpen && (
-          <div className='mnavbar-links'>
+
+    <motion.div className='mnavbar-links'>
               <ul className='mnavbar-linkswrap'>
                 <li className='mnavbar-linksitem'><a href="">About</a></li>
                 <li className='mnavbar-linksitem'><a href="">Features</a></li>
@@ -21,13 +22,9 @@ export function MobileNavLinks(props) {
                 <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="" className='main-btnr mnavbar-btn'>Get Started</a><a href="" className='alt-btnr mnavbar-btn'>Log In</a></li>
               </ul>
               
-          </div>
-)}
+    </motion.div>
         
-        
-        
-         
 
-    </div>
+
   );
 }

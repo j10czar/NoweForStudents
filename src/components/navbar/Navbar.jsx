@@ -4,6 +4,7 @@ import Banner from '../../assets/badge.png'
 import { MobileNavLinks } from './mobileNavLinks'
 import {DeviceSize} from "../responsive"
 import { useMediaQuery } from "react-responsive";
+import Hamburger from './Hamburger'
 
 const Navbar = () => {
 
@@ -29,7 +30,7 @@ const Navbar = () => {
         <div className='navbar-right'>
 
           {!isMobile && <div className='navbar-acc'><a href="" className='main-btnr'>Get Started</a><a href="" className='alt-btnr'>Log In</a> </div>}     
-          {isMobile && <MobileNavLinks/>}
+          {isMobile && <Hamburger/>}
         </div>
 
     </div>
