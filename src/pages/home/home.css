@@ -1,0 +1,222 @@
+.home-container{
+    margin-top: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+
+
+.home-container > p{
+    font-size: 14px;
+}
+
+.home-introp{
+    width: 100%;
+    width: 48rem;
+       
+}
+
+.home-mainbtns{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
+.home-mainbtns>a{
+
+    padding: 13px;
+    font-size: 0.9rem;
+
+
+}
+
+.home-abtimg{
+    width: 60%;
+    height: 60%;
+
+}
+
+.home-howcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-howcontainer>p{
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.home-howcardcontainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.home-howcard1{
+    background: rgb(84,106,233);
+    background: linear-gradient(27deg, rgba(84,106,233,1) 0%, rgba(121,141,255,1) 100%);
+    width: 300px;
+    height: 180px;
+    border-radius: 2rem;
+    color: var(--c-white);
+    font-size: 35px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.home-howcard2{
+    background: rgb(63,202,169);
+    background: linear-gradient(235deg, rgba(63,202,169,1) 0%, rgba(51,194,208,1) 100%);
+    width: 300px;
+    height: 180px;
+    border-radius: 2rem;
+    color: var(--c-white);
+    font-size: 35px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    
+}
+
+.home-howcard3{
+    background: rgb(255,145,0);
+    background: linear-gradient(94deg, rgba(255,145,0,1) 0%, rgba(255,171,0,1) 100%);
+    
+    width: 300px;
+    height: 180px;
+    border-radius: 2rem;
+    color: var(--c-white);
+    font-size: 35px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    
+}
+
+.home-howcard1>span, .home-howcard2>span, .home-howcard3>span{
+
+    font-size: 25px;
+    color: var(--c-white);
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+
+
+.home-howcard1:hover, .home-howcard2:hover, .home-howcard3:hover{
+    width: 310px;
+    height: 190px;
+}
+
+
+.home-features{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 1rem;
+    padding: 1rem;
+    
+
+    /* padding: 50px; */
+
+    
+    
+
+}
+
+
+.features-icon{
+    color: var(--c-black);
+    font-size: 30px;
+}
+
+.home-feature{
+
+    width: 280px;
+    height: 280px;
+    border: 2px solid var(--c-lgray);
+    border-radius: 1rem;
+    transition: var(--transition);
+    text-align: left;
+    padding: 10px;
+    
+
+
+    
+
+}
+
+.home-feature:hover{
+    background-color: rgb(236, 235, 235);
+    
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .home-features{
+        grid-template-columns: 300px 300px;
+        gap: 1.2rem;   
+
+        
+        
+    
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .home-container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .home-introp{
+        width: 20rem;
+
+    }
+
+    .home-abtimg{
+        width: 95%;
+        height: 60%;
+        border-radius: 1rem;
+    
+    }
+
+    .home-howcardcontainer{
+        flex-direction: column;
+    }
+
+    .home-howcontainer>p{
+        width: 350px;
+    }
+
+    .home-features{
+        grid-template-columns: 300px;
+        gap: 1rem;
+    }
+
+    
+
+}

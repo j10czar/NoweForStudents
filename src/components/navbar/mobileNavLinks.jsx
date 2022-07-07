@@ -1,30 +1,61 @@
 import React, { useState } from "react";
 import { MenuToggle } from "./MenuToggle";
 import './mobilenavlinks.css'
+import { Transition } from '@headlessui/react'
 
-import { motion, AnimatePresence} from "framer-motion"
+
 
 
 
 
 export function MobileNavLinks({className}) {
+
+  const [isOpen, setOpen] = useState(false);
   
 
   return (
+    <>
 
+    <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen) } />
+    {/* {isOpen && <div className='mnavbar-links'>
+                <ul className='mnavbar-linkswrap'>
+                  <li className='mnavbar-linksitem'><a href="#about">About</a></li>
+                  <li className='mnavbar-linksitem'><a href="#howitworks">How it works</a></li>
+                  <li className='mnavbar-linksitem'><a href="#features">Features</a></li>
+                  <li className='mnavbar-linksitem'><a href="#faq">FAQ</a></li>
+                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="" className='main-btnr'>Notify Me</a></li>
+                </ul>
+                
+      </div>} */}
 
-    <motion.div className='mnavbar-links'>
-              <ul className='mnavbar-linkswrap'>
-                <li className='mnavbar-linksitem'><a href="">About</a></li>
-                <li className='mnavbar-linksitem'><a href="">Features</a></li>
-                <li className='mnavbar-linksitem'><a href="">How it works</a></li>
-                <li className='mnavbar-linksitem'><a href="">FAQ</a></li>
-                <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="" className='main-btnr mnavbar-btn'>Get Started</a><a href="" className='alt-btnr mnavbar-btn'>Log In</a></li>
-              </ul>
-              
-    </motion.div>
+        <Transition
+        show={isOpen}
+        enter="transition-opacity duration-75"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-150"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0">
+          <div className='mnavbar-links'>
+                <ul className='mnavbar-linkswrap'>
+                  <li className='mnavbar-linksitem'><a href="#about">About</a></li>
+                  <li className='mnavbar-linksitem'><a href="#howitworks">How it works</a></li>
+                  <li className='mnavbar-linksitem'><a href="#features">Features</a></li>
+                  <li className='mnavbar-linksitem'><a href="#faq">FAQ</a></li>
+                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="" className='main-btnr'>Notify Me</a></li>
+                </ul>
+                
+          </div>
         
+        
+      </Transition>
 
+
+
+      
+      
+    
+    </>
 
   );
 }

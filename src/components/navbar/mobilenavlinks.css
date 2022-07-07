@@ -12,6 +12,7 @@
 
 
 .mnavbar-links{
+    
     display: flex;
     align-items: center;
     transition: var(--transition);
@@ -22,6 +23,7 @@
     
 
 .mnavbar-linkswrap{
+    padding-top: 1rem;
     margin: 0;
     padding: 0;
     display: flex;
@@ -31,7 +33,7 @@
     width: 100%;
     flex-direction: column;
     position: fixed;
-    top: 65px;
+    top: 59px;
     left: 0;
     animation: growDown 300ms ease-in-out forwards
 
@@ -68,4 +70,20 @@
 
 .mnavbar-linksitembtn{
     gap: 0.5rem;
+}
+
+.opacity-100{
+    opacity: 100%;
+
+}
+
+.opacity-0{
+    opacity: 0%;
+
+}
+
+.transition-opacity{
+
+    transition: var(--transition);
+
 }
