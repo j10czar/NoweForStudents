@@ -13,8 +13,8 @@ const About = () => {
         <h1>An organization app built for students by a student</h1>
         <div className='home-introp'>
         <p>Nowe is a card-based organization app that allows students to effortlessly
-            keep track of tasks and responsibilities for different areas of their lives. </p>
-            <p>(Demo releasing November 1st)</p>
+            keep track of tasks and responsibilities from different areas of their lives. </p>
+            <p>(Coming soon)</p>
             </div>
 
            

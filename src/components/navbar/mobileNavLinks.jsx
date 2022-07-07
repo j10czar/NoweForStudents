@@ -30,10 +30,10 @@ export function MobileNavLinks({className}) {
 
         <Transition
         show={isOpen}
-        enter="transition-opacity duration-75"
+        enter="transition-opacity"
         enterFrom="opacity-0"
         enterTo="opacity-100"
-        leave="transition-opacity duration-150"
+        leave="transition-opacity"
         leaveFrom="opacity-100"
         leaveTo="opacity-0">
           <div className='mnavbar-links'>

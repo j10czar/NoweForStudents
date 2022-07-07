@@ -35,14 +35,16 @@
     position: fixed;
     top: 59px;
     left: 0;
+
     animation: growDown 300ms ease-in-out forwards
 
 
 }
 
 
+
 .mnavbar-linksitem{
-    height: 10%;
+    height: 6%;
     width: 93%;
     padding: 0 1.1em;
     color: var(--c-dgray);
