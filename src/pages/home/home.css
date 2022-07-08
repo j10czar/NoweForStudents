@@ -242,6 +242,9 @@
         grid-template-columns: 300px;
         gap: 1rem;
     }
+    .faq-container{
+        height: 700px;
+    }
 
     
 

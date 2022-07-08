@@ -15,9 +15,10 @@ const Features = () => {
 
             <div className='home-feature'> <BiBookBookmark className='features-icon'/><br />
                 <h4>Study Mode</h4><br />
-                <p>A Study mode with built in <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" className='pomodoro' target='_blank'>pomodoro</a> timer.</p>
+                <p>A Study mode with built in <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" className='pomodoro' target='_blank'>pomodoro</a> timer.</p>{/* eslint-disable-line */}
             
             </div>
+            
             <div className='home-feature'> <FiBell className='features-icon '/><br />
                 <h4>Smart Notifications</h4><br />
                 <p>Reminders are sent at times of day when you are most focused.</p>
