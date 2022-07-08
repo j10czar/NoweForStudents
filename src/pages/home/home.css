@@ -194,6 +194,10 @@
 
 
 }
+
+.pomodoro{
+    color: var(--c-main);
+}
 @media screen and (max-width: 1024px) {
     .home-features{
         grid-template-columns: 300px 300px;
