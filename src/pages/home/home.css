@@ -242,3 +242,19 @@
     
 
 }
+
+@media (min-width: 2000px) and (max-width: 2960px)  {
+    .bg-image{
+        width: 2960px;
+    }
+
+
+}
+
+@media (min-width: 2961px) and (max-width: 3840px)  {
+    .bg-image{
+        width: 3840px;
+    }
+
+
+}
