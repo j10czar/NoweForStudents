@@ -8,7 +8,7 @@ import { Transition } from '@headlessui/react'
 
 
 
-export function MobileNavLinks({className}) {
+export function MobileNavLinks({className, isModal, setModal}) {
 
   const [isOpen, setOpen] = useState(false);
   
@@ -42,7 +42,8 @@ export function MobileNavLinks({className}) {
                   <li className='mnavbar-linksitem'><a href="#howitworks">How it works</a></li>
                   <li className='mnavbar-linksitem'><a href="#features">Features</a></li>
                   <li className='mnavbar-linksitem'><a href="#faq">FAQ</a></li>
-                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="" className='main-btnr'>Notify Me</a></li>
+                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><button className='main-btn' type='button' onClick={()=>{setModal(!isModal); setOpen(false)}}>Notify Me</button></li>
+
                 </ul>
                 
           </div>

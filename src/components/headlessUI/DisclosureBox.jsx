@@ -1,5 +1,5 @@
 import React from 'react'
-import './disclosure.css'
+import './headless.css'
 import { Disclosure } from '@headlessui/react'
 import {FiChevronUp} from 'react-icons/fi'
 

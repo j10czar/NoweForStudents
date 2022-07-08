@@ -1,10 +1,10 @@
 import React from 'react'
-import DisclosureBox from '../../components/general/DisclosureBox'
+import DisclosureBox from '../../components/headlessUI/DisclosureBox'
 
 
 const FAQ = () => {
   return (
-    <div className='home-container' id='faq'>
+    <div className='home-container faq-container2' id='faq'>
         <h1>FAQ</h1>
 
         <div className='faq-container'>
@@ -16,6 +16,8 @@ const FAQ = () => {
 
 
         </div>
+
+        
     </div>
   )
 }

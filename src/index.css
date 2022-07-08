@@ -220,3 +220,26 @@ ul{
 p{
   color: var(--c-dgray);
 }
+
+.text-field{
+  border: 2px solid rgb(181, 181, 181);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+  background: none;
+  outline: none;
+
+
+}
+
+.text-field:focus{
+  border-color: var(--c-main2);
+
+  
+}
+
+.text-field:hover{
+  border-color: var(--c-main2);
+
+}
+
+

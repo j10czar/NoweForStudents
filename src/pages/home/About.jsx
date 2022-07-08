@@ -1,8 +1,10 @@
 import React from 'react'
 import './home.css'
 import Image from '../../assets/placeholder.png'
-import { Dialog } from '@headlessui/react'
+
 import { useState } from 'react'
+import EModal from '../../components/headlessUI/EModal'
+
 
 const About = () => {
 
@@ -19,9 +21,10 @@ const About = () => {
 
            
 
-        <div className='home-mainbtns'><a className='main-btn' >Notify Me</a></div>
+        <div className='home-mainbtns'><button className='main-btn notif' type='button' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button></div>
+        <EModal isOpen={isOpen} setIsOpen={setIsOpen}/>
 
-        <img className='rimg home-abtimg' src={Image} alt="No image" />
+        <img className='rimg home-abtimg' src={Image} alt="L" />
         <p>(Image above is a prototype and will most likely be changed)</p>
 
         

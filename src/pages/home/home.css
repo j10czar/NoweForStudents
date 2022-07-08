@@ -143,6 +143,10 @@
 
 }
 
+.faq-container{
+    height: 500px;
+}
+
 
 .features-icon{
     color: var(--c-black);
@@ -165,6 +169,10 @@
 
 }
 
+.faq-container2{
+    margin-bottom: 0rem;
+}
+
 
 
 .home-feature:hover{
@@ -174,6 +182,18 @@
     
 }
 
+.notif{
+    font-size: 18px;
+}
+
+.bg-image{
+    z-index: -1;
+    position: relative;
+    overflow-y: hidden;
+
+
+
+}
 @media screen and (max-width: 1024px) {
     .home-features{
         grid-template-columns: 300px 300px;

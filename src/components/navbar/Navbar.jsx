@@ -4,9 +4,15 @@ import Banner from '../../assets/badge.png'
 import { MobileNavLinks } from './mobileNavLinks'
 import {DeviceSize} from "../responsive"
 import { useMediaQuery } from "react-responsive";
+import { useState } from 'react'
+import EModal from '../headlessUI/EModal'
 const Navbar = () => {
 
   const isMobile = useMediaQuery({maxWidth: DeviceSize.mobile})
+  let [isOpen, setIsOpen] = useState(false)
+  let [isModal, setModal] = useState(false)
+
+
   return (
     <div className='navbar-container'>
         <div className='navbar-left'>
@@ -27,8 +33,10 @@ const Navbar = () => {
         </div>
         <div className='navbar-right'>
 
-          {!isMobile && <div className='navbar-acc'><a href="" className='main-btnr'>Notify Me</a> </div>}     
-          {isMobile && <MobileNavLinks/>}
+          {!isMobile && <div className='navbar-acc'><button type='button' className='main-btnr' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button> </div>}
+          <EModal isOpen={isOpen} setIsOpen={setIsOpen}/>     
+          {isMobile && <MobileNavLinks isModal={isModal} setModal={setModal}/>}
+          <EModal isOpen={isModal} setIsOpen={setModal}/>  
         </div>
 
     </div>
