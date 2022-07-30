@@ -22,7 +22,7 @@
 }
     
 
-.mnavbar-linkswrapClose{
+.mnavbar-linkswrap{
     padding-top: 1rem;
     margin: 0;
     padding: 0;
@@ -40,35 +40,19 @@
   0px 53px 80px rgba(0, 0, 0, 0.07)
 ;
     transition: transform 0.15s ease-in-out;
-    transition: var(--transition);
+
+
+}
+
+
+.nav-close{
     transform: translateY(-130%);
-
-
 }
 
-.mnavbar-linkswrapOpen{
-    padding-top: 1rem;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: 40%;
-    list-style: none;
-    background-color: var(--c-white);
-    width: 100%;
-    flex-direction: column;
-    position: fixed;
-    top: 59px;
-    left: 0;
-    box-shadow:
-  0px 6.6px 10px rgba(0, 0, 0, 0.035),
-  0px 53px 80px rgba(0, 0, 0, 0.07)
-;
-    transition: transform 0.15s ease-in-out;
-    transition: var(--transition);
+.nav-open{
     transform: translateY(0%);
-
-
 }
+
 
 
 

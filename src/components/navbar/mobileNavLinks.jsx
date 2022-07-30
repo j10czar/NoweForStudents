@@ -19,7 +19,7 @@ export function MobileNavLinks({className, isModal, setModal}) {
 
     <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen) } />
     <div className='mnavbar-links'>
-                <ul className={isOpen ? 'mnavbar-linkswrapOpen' : 'mnavbar-linkswrapClose'}>
+                <ul className={isOpen ? 'mnavbar-linkswrap nav-open' : 'mnavbar-linkswrap nav-close'}>
                   <li className='mnavbar-linksitem'><a href="#about">About</a></li>
                   <li className='mnavbar-linksitem'><a href="#howitworks">How it works</a></li>
                   <li className='mnavbar-linksitem'><a href="#features">Features</a></li>
