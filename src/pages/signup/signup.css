@@ -1,0 +1,13 @@
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.meshBG{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+    z-index: -100;
+}
