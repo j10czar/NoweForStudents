@@ -1,10 +1,12 @@
-import Signup from "./pages/signup/Signup";
+
+import Home from "./pages/home/Home"
 
 
 function App() {
   return (
     <>
-      <Signup/>
+      <Home/>
+      
     </>
     
     

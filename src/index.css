@@ -205,6 +205,7 @@ p{
   transition: var(--transition);
   background: none;
   outline: none;
+  color: var(--c-dgray);
 
 
 }
@@ -220,4 +221,7 @@ p{
 
 }
 
+.link{
+  color: var(--c-main);
+}
 
