@@ -43,6 +43,27 @@ body{
     justify-content: center;
 }
 
+.signin-modal{
+    width: 600px;
+    height: 500px;
+    background-color: var(--c-white);
+    border-radius: 2rem;
+    box-shadow:
+  0px 2.1px 2.2px rgba(0, 0, 0, 0.02),
+  0px 5.1px 5.3px rgba(0, 0, 0, 0.028),
+  0px 9.5px 10px rgba(0, 0, 0, 0.035),
+  0px 17px 17.9px rgba(0, 0, 0, 0.042),
+  0px 31.8px 33.4px rgba(0, 0, 0, 0.05),
+  0px 76px 80px rgba(0, 0, 0, 0.07)
+;
+    margin: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .signup-title{
     font-weight: 700;
     color: var(--c-black);
@@ -83,7 +104,7 @@ label{
 }
 
 .createacc-btn{
-    width: 200px;
+    width: 120px;
     font-size: 18px;
     margin-top: -2rem;
     margin-right: 1rem;

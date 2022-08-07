@@ -1,19 +1,11 @@
 import React from 'react'
 
-const Step1 = () => {
+const login = () => {
   return (
-    <div className='signup-modal'>
-        <h1 className='signup-title'>Create Account</h1>
+    <div className='signin-modal'>
+        <h1 className='signup-title'>Log In</h1>
         <div className='signup-userpass'>
             <form action="">
-                <label htmlFor="firstname">First Name</label>
-                <br />
-                <input type="text" name='firstname' id='firstname' className='text-field signup-text-field'/>
-                <br />
-                <label htmlFor="lastname">Last Name</label>
-                <br />
-                <input type="text" name='lastname' id='lastname' className='text-field signup-text-field'/>
-                <br />
                 <label htmlFor="username">Email</label>
                 <br />
                 <input type="text" name='email' id='email' className='text-field signup-text-field'/>
@@ -28,12 +20,15 @@ const Step1 = () => {
         </div>
 
         <div className='signup-btn-container'>
-            <button type='submit' className='main-btn createacc-btn'>Sign Up</button>
+            <button type='submit' className='main-btn createacc-btn'>Log In</button>
 
             <button type='button' className='alt-btn createacc-btn'>Cancel</button>
         </div>
 
-        <p>Have an account? <a href="/login" className='link'>Log in</a></p>
+
+        <p>Forgot your password? <a href="" className='link'>Reset Password</a></p>
+
+        <p>Don't have an account? <a href="/signup" className='link'>Create Account</a></p>
         
 
         
@@ -41,4 +36,4 @@ const Step1 = () => {
   )
 }
 
-export default Step1
+export default login
