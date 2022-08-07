@@ -8,20 +8,20 @@ const Step1 = () => {
             <form action="">
                 <label htmlFor="firstname">First Name</label>
                 <br />
-                <input type="text" name='firstname' id='firstname' className='text-field'/>
+                <input type="text" name='firstname' id='firstname' className='text-field signup-text-field'/>
                 <br />
                 <label htmlFor="lastname">Last Name</label>
                 <br />
-                <input type="text" name='lastname' id='lastname' className='text-field'/>
+                <input type="text" name='lastname' id='lastname' className='text-field signup-text-field'/>
                 <br />
                 <label htmlFor="username">Email</label>
                 <br />
-                <input type="text" name='email' id='email' className='text-field'/>
+                <input type="text" name='email' id='email' className='text-field signup-text-field'/>
                 <br />
   
                 <label htmlFor="password">Password</label>
                 <br />
-                <input type="password" name='password' id='password' className='text-field'/>
+                <input type="password" name='password' id='password' className='text-field signup-text-field'/>
 
 
             </form>
