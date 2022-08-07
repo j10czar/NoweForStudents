@@ -7,7 +7,6 @@ import Signup from './pages/signup/Signup'
 import Signin from './pages/signin/Signin';
 
 import './index.css';
-import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
