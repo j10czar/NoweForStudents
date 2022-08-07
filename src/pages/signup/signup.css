@@ -115,6 +115,10 @@ label{
     padding: 1rem;
 }
 
+.signin-modal > p{
+    margin: 0.2rem;
+}
+
 
 @media screen and (max-width: 600px){
 
@@ -126,7 +130,7 @@ label{
 
     .signin-modal{
         width: 340px;
-        height: 650px;
+        height: 500px;
         margin: 2rem;
     }
     .whiteNowe{

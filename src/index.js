@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Signup from './pages/signup/Signup'
 import Signin from './pages/signin/Signin';
+import DEVinfo from './pages/DEV/DEVinfo';
 
 import './index.css';
 
@@ -18,6 +19,7 @@ root.render(
             <Route path='/' element={<Home/>}/>
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/login' element={<Signin/>}/>
+            <Route path='/devinfo' element={<DEVinfo/>}/>
         </Routes>
     </Router>
 

@@ -26,9 +26,9 @@ const login = () => {
         </div>
 
 
-        <p>Forgot your password? <a href="/" className='link'>Reset Password</a></p>
+        {/* <p>Forgot your password? <a href="/" className='link login-link'>Reset Password</a></p> */}
 
-        <p>Don't have an account? <a href="/signup" className='link'>Create Account</a></p>
+        <p>Don't have an account? <a href="/signup" className='link login-link'>Create Account</a></p>
         
 
         

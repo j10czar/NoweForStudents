@@ -183,7 +183,8 @@
 }
 
 .notif{
-    font-size: 18px;
+    margin-bottom: 1rem;
+    padding-left: 0rem;
 }
 
 .bg-image{
@@ -194,6 +195,14 @@
 
 
 }
+
+.abt-btn-container{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .pomodoro{
     color: var(--c-main);
