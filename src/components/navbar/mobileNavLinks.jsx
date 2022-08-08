@@ -24,8 +24,7 @@ export function MobileNavLinks({className, isModal, setModal}) {
                   <li className='mnavbar-linksitem'><a href="#howitworks">How it works</a></li>
                   <li className='mnavbar-linksitem'><a href="#features">Features</a></li>
                   <li className='mnavbar-linksitem'><a href="#faq">FAQ</a></li>
-                  {/* <li className="mnavbar-linksitem mnavbar-linksitembtn"><button className='main-btn' type='button' onClick={()=>{setModal(!isModal); setOpen(false)}}>Notify Me</button></li> */}
-                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><a href="/signup" className='main-btnr'>Get Started</a><a href="/login" className='alt-btnr'>Log In</a></li>
+                  <li className="mnavbar-linksitem mnavbar-linksitembtn"><button className='main-btn' type='button' onClick={()=>{setModal(!isModal); setOpen(false)}}>Notify Me</button></li>
                 </ul>
                 
       </div>

@@ -21,10 +21,7 @@ const About = () => {
 
            
 
-        {/* <div className='home-mainbtns'><button className='main-btn notif' type='button' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button></div> */}
-
-        <div className='abt-btn-container'><a href="/signup" className='main-btn notif'>Get Started</a>
-        <a href="/login" className='alt-btn notif'>Log In</a></div>
+        <div className='home-mainbtns'><button className='main-btn notif' type='button' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button></div>
         <EModal isOpen={isOpen} setIsOpen={setIsOpen}/>
 
         <img className='rimg home-abtimg' src={Image} alt="L" />

@@ -33,14 +33,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-right'>
 
-          {/* {!isMobile && <div className='navbar-acc'><button type='button' className='main-btnr' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button> </div>} */}
-
-          {!isMobile &&  <a href="/signup" className='main-btnr nav-btns'>Get Started</a>}
-          {!isMobile &&  <a href="/login" className='alt-btnr'>Log In</a>}
-          
-          
-
-
+          {!isMobile && <div className='navbar-acc'><button type='button' className='main-btnr' onClick={()=>setIsOpen(!isOpen)}>Notify Me</button> </div>}
           <EModal isOpen={isOpen} setIsOpen={setIsOpen}/>     
           {isMobile && <MobileNavLinks isModal={isModal} setModal={setModal}/>}
           <EModal isOpen={isModal} setIsOpen={setModal}/>  
