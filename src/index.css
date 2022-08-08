@@ -63,10 +63,9 @@ a{
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 18px;
   transition: var(--transition);
   margin-right: 1rem;
-  margin-left: 1rem;
 }
 
 
@@ -86,7 +85,7 @@ a{
 
   border: 2px var(--c-lgray) solid;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 18px;
   transition: var(--transition);
 
   color: var(--c-dgray);
