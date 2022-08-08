@@ -1,4 +1,4 @@
-body{
+html{
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -75,7 +75,7 @@ label{
     color: var(--c-dgray);
 }
 
-.signup-text-field{
+.text-field{
     font-size: 15px;
     margin-bottom: 2rem;
     width: 300px;
