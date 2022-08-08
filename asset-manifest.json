@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/NoweForStudents/static/css/main.a3f8d1af.css",
-    "main.js": "/NoweForStudents/static/js/main.328cabb9.js",
+    "main.css": "/NoweForStudents/static/css/main.f13f234f.css",
+    "main.js": "/NoweForStudents/static/js/main.e2fce111.js",
     "static/media/placeholder.png": "/NoweForStudents/static/media/placeholder.b5fc6718f9949929a3e2.png",
+    "static/media/meshbg.jpg": "/NoweForStudents/static/media/meshbg.87a03c3c6cc526879691.jpg",
     "static/media/pattern.png": "/NoweForStudents/static/media/pattern.474b2af1e6ce387dd6e8.png",
     "static/media/badge.png": "/NoweForStudents/static/media/badge.a454a1eeb7dbe15d4a84.png",
+    "static/media/whiteicon.png": "/NoweForStudents/static/media/whiteicon.d2effa8334c1764aacc7.png",
     "index.html": "/NoweForStudents/index.html",
-    "main.a3f8d1af.css.map": "/NoweForStudents/static/css/main.a3f8d1af.css.map",
-    "main.328cabb9.js.map": "/NoweForStudents/static/js/main.328cabb9.js.map"
+    "main.f13f234f.css.map": "/NoweForStudents/static/css/main.f13f234f.css.map",
+    "main.e2fce111.js.map": "/NoweForStudents/static/js/main.e2fce111.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3f8d1af.css",
-    "static/js/main.328cabb9.js"
+    "static/css/main.f13f234f.css",
+    "static/js/main.e2fce111.js"
   ]
 }
